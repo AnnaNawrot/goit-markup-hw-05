@@ -243,9 +243,31 @@ img {
 }
 
 /* 3 photos in section Czym się zajmujemy */
-.gallery {
+/* previous class title: .gallery  */
+.service-list {
   display: flex;
   justify-content: space-between;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.servis-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-txt-color);
+  text-align: center;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  position: absolute;
 }
 
 /* OUR TEAM */
@@ -429,10 +451,10 @@ img {
 .cta {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-txt-color);
 }
 
 .social-list-foot {
