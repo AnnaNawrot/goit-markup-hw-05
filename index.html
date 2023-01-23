@@ -19,15 +19,7 @@
   </head>
   <body>
     <!-- header -->
-    <div class="backdrop">
-      <div class="modal">
-        <button class="modal-button" type="button">
-          <svg width="11px" height="11px">
-            <use href="./images/icons#icon-close.svg"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
+
     <header class="header">
       <div class="container header-container">
         <a class="logo" href="./index.html"
@@ -90,7 +82,23 @@
         <h1 class="hero-headline">
           Efektywne rozwiązania<br />dla waszego biznesu
         </h1>
-        <button type="button" class="hero-button">Zamów usługę</button>
+        <button data-modal-open type="button" class="hero-button">
+          Zamów usługę
+        </button>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button
+            data-modal-close
+            class="modal-close-button"
+            type="button"
+            href="#"
+          >
+            <svg class="icon-close" width="11px" height="11px">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
       </div>
       <!-- main section -->
       <section class="section">
