@@ -706,10 +706,12 @@ button {
   z-index: 1;
   width: 528px;
   height: 581px;
+  top: 221px;
   background-color: var(--primary-bg-color);
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  
 }
 
 .modal-close-button {
@@ -719,6 +721,9 @@ button {
   background-color: var(--primary-bg-color);
   border-radius: 50px;
   border: solid rgba(0, 0, 0, 0.1) 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-close {
@@ -741,7 +746,4 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transform: translateX(2%);
-  transition: transform 750ms;
 } */
