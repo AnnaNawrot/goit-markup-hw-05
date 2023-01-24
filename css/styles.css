@@ -656,7 +656,7 @@ button {
   scale: 1;
   opacity: 1;
   transition: transform, scale, opacity;
-  transition-duration: 550ms;
+  transition-duration: 200ms;
 }
 
 /* modal, czyli wyskakujące okienko z formularzem */
