@@ -665,7 +665,9 @@ button {
   z-index: 1;
   width: 528px;
   height: 581px;
-  top: 221px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: var(--primary-bg-color);
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -693,4 +695,46 @@ button {
   visibility: hidden;
   opacity: 0;
   transform: scale(1.1);
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+/* FORM */
+.form-window {
+  display: flex;
+  justify-content: center;
+}
+
+.form-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 40px;
+}
+.service-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
 }
